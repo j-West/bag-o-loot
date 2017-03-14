@@ -4,7 +4,7 @@
   "description": "template for node exercises",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R nyan --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/j-West/nodeTemplate/issues"
   },
-  "homepage": "https://github.com/j-West/nodeTemplate#readme"
+  "homepage": "https://github.com/j-West/nodeTemplate#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
