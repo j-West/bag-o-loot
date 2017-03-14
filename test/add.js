@@ -6,7 +6,7 @@ const showChild = require('../lib/show-child');
 describe('add.js', () => {
 
   before(() => {
-    add("james", "cat", "0")
+    add("james", "cat")
   })
 
   it('should return the object just inserted', () => {

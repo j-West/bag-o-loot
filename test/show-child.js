@@ -10,7 +10,7 @@ describe('show-child.js', () => {
       })
   })
   it('should return an Array of Objects', () => {
-    return showChild("Joel")
+    return showChild("james")
       .then((row) => {
         assert.isObject(row[0]);
       })
